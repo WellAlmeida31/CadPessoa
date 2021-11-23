@@ -2,15 +2,12 @@ package br.com.pessoa.controller.DTO;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.data.domain.Page;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
-import br.com.pessoa.controller.service.CadastroRepository;
 import br.com.pessoa.modelo.Cadastro;
 import lombok.Getter;
 import lombok.Setter;
